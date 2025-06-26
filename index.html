@@ -3,25 +3,25 @@
   <head>
     <meta charset = "UTF-8"/>
     <link rel="stylesheet" href="style.css"/>
-    <title>Form</title>
+    <title>Form by HTML and CSS</title>
   </head>
   <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
     
-    <form id="survey-form">
+    <form id="survey-form" method="" action="">
 
 <fieldset>
-      <label id="name-label">Name <input type="text" id="name" name="name" placeholder="Enter your name" required/></label>
-      <label id="email-label">Email <input type="email" id="email" name="email" placeholder="Enter your Email" required/></label>
-      <label id="number-label">Age (optional) <input type="number" id="number" min="18" max="80" placeholder="Age" /></label>
+      <label for="name">Name <input type="text" id="name" name="name" placeholder="Enter your name" required/></label>
+      <label for="email">Email <input type="email" id="email" name="email" placeholder="Enter your Email" required/></label>
+      <label for="age">Age (optional) <input type="number" id="age" min="18" max="80" name="age" placeholder="Age" /></label>
 </fieldset>
 
 
 <fieldset>
   <label for="dropdown">Which option best describes your current role?</label>
-      <select id="dropdown">
+      <select id="dropdown" name="dropdown">
         <option>Select current role</option>
         <option>Student</option>
         <option>Full time job</option>
